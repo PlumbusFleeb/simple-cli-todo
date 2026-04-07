@@ -7,5 +7,5 @@ curl -LsSf https://raw.githubusercontent.com/PlumbusFleeb/simple-cli-todo/main/i
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/PlumbusFleeb/simple-cli-todo/main/install.sh | iex
+irm https://raw.githubusercontent.com/PlumbusFleeb/simple-cli-todo/main/install.ps1 | iex
 ```
