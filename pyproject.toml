@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todo"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = [
+    "typer",
+]
+
+[project.scripts]
+todo = "src.main:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
