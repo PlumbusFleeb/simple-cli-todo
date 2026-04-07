@@ -2,10 +2,10 @@
 
 **Linux/macOS:**
 ```bash
-curl -LsSf https://github.com/PlumbusFleeb/simple-cli-todo/raw/refs/heads/main/install.sh | sh
+curl -LsSf https://raw.githubusercontent.com/PlumbusFleeb/simple-cli-todo/main/install.sh | sh
 ```
 
 **Windows (PowerShell):**
 ```powershell
-irm https://github.com/PlumbusFleeb/simple-cli-todo/raw/refs/heads/main/install.sh | iex
+irm https://raw.githubusercontent.com/PlumbusFleeb/simple-cli-todo/main/install.sh | iex
 ```
