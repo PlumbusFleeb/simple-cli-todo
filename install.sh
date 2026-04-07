@@ -11,6 +11,6 @@ if ! command -v uv &> /dev/null; then
 fi
 
 # Install todo
-uv tool install git+https://github.com/yourusername/todo.git
+uv tool install git+https://github.com/PlumbusFleeb/simple-cli-todo.git
 
 echo "Done! Run 'todo' to get started."

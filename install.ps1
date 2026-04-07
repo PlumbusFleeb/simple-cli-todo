@@ -7,6 +7,6 @@ if (-not (Get-Command uv -ErrorAction SilentlyContinue)) {
 }
 
 # Install todo
-uv tool install git+https://github.com/yourusername/todo.git
+uv tool install git+https://github.com/PlumbusFleeb/simple-cli-todo.git
 
 Write-Host "Done! Run 'todo' to get started."
