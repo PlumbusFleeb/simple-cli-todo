@@ -1,22 +1,13 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv
-
-#ignore everything ...
+# Ignore everything
 /*
 
-#...But do not ignore this subdirectory
+# Track these files and directories
 !/src/
-
-#... Also do not ignore README.md and do not ignore pyproject.toml and .gitignore
 !/README.md
 !/pyproject.toml
 !/.gitignore
-!/install.*
+!/install.sh
+!/install.ps1
+
+# Ignore pycache inside src
+src/__pycache__/
